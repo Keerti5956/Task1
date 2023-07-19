@@ -6,10 +6,10 @@ interface Carfunction{
 }
 class Cars implements Carfunction {
     public final void accelerator(){
-        System.out.println("Accelarator");
+        System.out.println("Accelerator");
     }
     public final void brake(){
-        System.out.println("brake");
+        System.out.println("Brake");
     }
     public final void clutch(){
         System.out.println("Clutch");
@@ -40,7 +40,7 @@ class Toyota extends Cars{
         System.out.println(c);
     }
     void engine(){
-        System.out.println("diesel and gasoline engine");
+        System.out.println("Diesel and gasoline engine");
     }
 }
 class Honda extends Cars{

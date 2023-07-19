@@ -20,7 +20,7 @@ class Maruti extends Cars{
         System.out.println("XL6");
     }
     void wheel_size(){
-        System.out.println("145/70 R12");
+        System.out.println("145/70 R12 87 v");
     }
     void color(String c){
         System.out.println(c);
@@ -62,7 +62,7 @@ public class Car {
 
         int choice;
         while(true){
-        System.out.println("Enter your choice 1-Maruti\n2-Toyota\n3-Honda\n");
+        System.out.println("Enter your choice\n1-Maruti\n2-Toyota\n3-Honda\n");
         Scanner s = new Scanner(System.in);
         choice = s.nextInt();
         switch (choice){
